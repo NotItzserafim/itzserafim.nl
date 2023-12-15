@@ -11976,4 +11976,20 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+#video-container,
+#chat-container {
+  height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  /* Voor schermen met een maximale breedte van 768px, zoals mobiele apparaten */
+  #video-container,
+  #chat-container {
+    height: 300px; /* Automatische hoogte aanpassing */
+  }
+  #Discordembedonder {
+    width: 300px;
+    height: 450px;
+  }
 }/*# sourceMappingURL=main.css.map */
